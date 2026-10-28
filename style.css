@@ -1,1 +1,16 @@
-/* style.css - Add your styles here */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-container {
+  width: 90%;
+  max-width: 480px;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
